@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.employeeapi.utilities.Listerners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="com.employeeapi.Test.TC_02_GET_Sinfgle_EmployeeRecord">
+        <methods>
+          <include name="checkContentType"/>
+          <include name="teardown"/>
+          <include name="checkServertype"/>
+          <include name="setUp"/>
+          <include name="getAllEmployees"/>
+        </methods>
+      </class> <!-- com.employeeapi.Test.TC_02_GET_Sinfgle_EmployeeRecord -->
+      <class name="com.employeeapi.Test.TC_05_DELETE_EmployeeRecord">
+        <methods>
+          <include name="checkStatuscode"/>
+          <include name="deleteEmployeeRecords"/>
+          <include name="checkResponseBody"/>
+          <include name="checkserverType"/>
+          <include name="teardown"/>
+          <include name="checkstatusline"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.employeeapi.Test.TC_05_DELETE_EmployeeRecord -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

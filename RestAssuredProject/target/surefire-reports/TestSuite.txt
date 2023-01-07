@@ -1,0 +1,58 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 24, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 29.422 sec <<< FAILURE! - in TestSuite
+checkResponseBody(com.employeeapi.Test.TC_05_DELETE_EmployeeRecord)  Time elapsed: 0.052 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:751)
+	at org.testng.Assert.assertEquals(Assert.java:761)
+	at com.employeeapi.Test.TC_05_DELETE_EmployeeRecord.checkResponseBody(TC_05_DELETE_EmployeeRecord.java:41)
+
+checkStatuscode(com.employeeapi.Test.TC_05_DELETE_EmployeeRecord)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [429]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:839)
+	at org.testng.Assert.assertEquals(Assert.java:849)
+	at com.employeeapi.Test.TC_05_DELETE_EmployeeRecord.checkStatuscode(TC_05_DELETE_EmployeeRecord.java:49)
+
+checkserverType(com.employeeapi.Test.TC_05_DELETE_EmployeeRecord)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.AssertionError: expected [nginx/1.14.1] but found [Apache]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at com.employeeapi.Test.TC_05_DELETE_EmployeeRecord.checkserverType(TC_05_DELETE_EmployeeRecord.java:61)
+
+checkstatusline(com.employeeapi.Test.TC_05_DELETE_EmployeeRecord)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 429 Too Many Requests]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at com.employeeapi.Test.TC_05_DELETE_EmployeeRecord.checkstatusline(TC_05_DELETE_EmployeeRecord.java:55)
+
+checkContentType(com.employeeapi.Test.TC_02_GET_Sinfgle_EmployeeRecord)  Time elapsed: 0.012 sec  <<< FAILURE!
+java.lang.AssertionError: expected [txt/html; charset=UTF-8] but found [application/json]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at com.employeeapi.Test.TC_02_GET_Sinfgle_EmployeeRecord.checkContentType(TC_02_GET_Sinfgle_EmployeeRecord.java:66)
+
+checkServertype(com.employeeapi.Test.TC_02_GET_Sinfgle_EmployeeRecord)  Time elapsed: 0.019 sec  <<< FAILURE!
+java.lang.AssertionError: expected [nginx/1.14.1] but found [nginx/1.21.6]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at com.employeeapi.Test.TC_02_GET_Sinfgle_EmployeeRecord.checkServertype(TC_02_GET_Sinfgle_EmployeeRecord.java:74)
+

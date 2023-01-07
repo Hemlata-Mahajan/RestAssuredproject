@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="0.488" tests="24" errors="0" skipped="0" failures="6">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="19.0.1+10-21"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Admin\eclipse-workspace\RestAssuredProject"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Admin\eclipse-workspace\RestAssuredProject"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="19.0.1+10-21"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Admin\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="stderr.encoding" value="cp437"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\apache-maven-3.8.6\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="stdout.encoding" value="cp437"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-19\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-19\bin;C:\apache-maven-3.8.6\bin\;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="maven.conf" value="C:\apache-maven-3.8.6/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="63.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\apache-maven-3.8.6\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\Admin"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="19"/>
+    <property name="user.name" value="Admin"/>
+    <property name="java.class.path" value="C:\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-19"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="19.0.1"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\apache-maven-3.8.6"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="checkContentEncoding" classname="com.employeeapi.Test.TC_05_DELETE_EmployeeRecord" time="0.089"/>
+  <testcase name="checkResponseBody" classname="com.employeeapi.Test.TC_05_DELETE_EmployeeRecord" time="0.052">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:751)
+	at org.testng.Assert.assertEquals(Assert.java:761)
+	at com.employeeapi.Test.TC_05_DELETE_EmployeeRecord.checkResponseBody(TC_05_DELETE_EmployeeRecord.java:41)
+</failure>
+    <system-out><![CDATA[Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@30c4e352
+Connection can be kept alive indefinitely
+]]></system-out>
+  </testcase>
+  <testcase name="checkStatuscode" classname="com.employeeapi.Test.TC_05_DELETE_EmployeeRecord" time="0.006">
+    <failure message="expected [200] but found [429]" type="java.lang.AssertionError">java.lang.AssertionError: expected [200] but found [429]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:839)
+	at org.testng.Assert.assertEquals(Assert.java:849)
+	at com.employeeapi.Test.TC_05_DELETE_EmployeeRecord.checkStatuscode(TC_05_DELETE_EmployeeRecord.java:49)
+</failure>
+  </testcase>
+  <testcase name="checkserverType" classname="com.employeeapi.Test.TC_05_DELETE_EmployeeRecord" time="0.006">
+    <failure message="expected [nginx/1.14.1] but found [Apache]" type="java.lang.AssertionError">java.lang.AssertionError: expected [nginx/1.14.1] but found [Apache]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at com.employeeapi.Test.TC_05_DELETE_EmployeeRecord.checkserverType(TC_05_DELETE_EmployeeRecord.java:61)
+</failure>
+  </testcase>
+  <testcase name="checkstatusline" classname="com.employeeapi.Test.TC_05_DELETE_EmployeeRecord" time="0.005">
+    <failure message="expected [HTTP/1.1 200 OK] but found [HTTP/1.1 429 Too Many Requests]" type="java.lang.AssertionError">java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 429 Too Many Requests]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at com.employeeapi.Test.TC_05_DELETE_EmployeeRecord.checkstatusline(TC_05_DELETE_EmployeeRecord.java:55)
+</failure>
+  </testcase>
+  <testcase name="checkContentType" classname="com.employeeapi.Test.TC_03_POST_EmployeeData" time="0.003"/>
+  <testcase name="checkResposebody" classname="com.employeeapi.Test.TC_03_POST_EmployeeData" time="0.018"/>
+  <testcase name="checkStatuscode" classname="com.employeeapi.Test.TC_03_POST_EmployeeData" time="0"/>
+  <testcase name="checkStatusline" classname="com.employeeapi.Test.TC_03_POST_EmployeeData" time="0.005"/>
+  <testcase name="checkContentType" classname="com.employeeapi.Test.TC_02_GET_Sinfgle_EmployeeRecord" time="0.012">
+    <failure message="expected [txt/html; charset=UTF-8] but found [application/json]" type="java.lang.AssertionError">java.lang.AssertionError: expected [txt/html; charset=UTF-8] but found [application/json]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at com.employeeapi.Test.TC_02_GET_Sinfgle_EmployeeRecord.checkContentType(TC_02_GET_Sinfgle_EmployeeRecord.java:66)
+</failure>
+    <system-out><![CDATA[******finished TC_03_ POST_employee*******
+************ started TC001_GET__Single Employees Record*************
+Get connection for route {}->http://dummy.restapiexample.com:80
+Connecting to dummy.restapiexample.com:80
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/v1/employee/1 HTTP/1.1
+ >> "GET /api/v1/employee/1 HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Host: dummy.restapiexample.com[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/v1/employee/1 HTTP/1.1
+>> Accept: */*
+>> Host: dummy.restapiexample.com
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Cache-Control: public, max-age=2592000[\r][\n]"
+ << "Content-Type: application/json[\r][\n]"
+ << "Date: Fri, 06 Jan 2023 16:38:53 UTC[\r][\n]"
+ << "Display: staticcontent_sol, orig_site_sol[\r][\n]"
+ << "Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==[\r][\n]"
+ << "Response: 200[\r][\n]"
+ << "Server: nginx/1.21.6[\r][\n]"
+ << "Vary: Accept-Encoding,User-Agent,Origin[\r][\n]"
+ << "X-Endurance-Cache-Level: 2[\r][\n]"
+ << "X-Ezoic-Cdn: Hit ds;ms;76d516da1fe627787f7338bf3c9dc897;2-133674-12;b7b20aaa-b55a-4f14-4068-70d4b2aca671[\r][\n]"
+ << "X-Middleton-Display: staticcontent_sol, orig_site_sol[\r][\n]"
+ << "X-Middleton-Response: 200[\r][\n]"
+ << "X-Nginx-Cache: WordPress[\r][\n]"
+ << "X-Origin-Cache-Control: no-cache, private[\r][\n]"
+ << "X-Ratelimit-Limit: 60[\r][\n]"
+ << "X-Ratelimit-Remaining: 58[\r][\n]"
+ << "X-Server-Cache: false[\r][\n]"
+ << "X-Sol: orig[\r][\n]"
+ << "Content-Length: 179[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Cache-Control: public, max-age=2592000
+<< Content-Type: application/json
+<< Date: Fri, 06 Jan 2023 16:38:53 UTC
+<< Display: staticcontent_sol, orig_site_sol
+<< Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+<< Response: 200
+<< Server: nginx/1.21.6
+<< Vary: Accept-Encoding,User-Agent,Origin
+<< X-Endurance-Cache-Level: 2
+<< X-Ezoic-Cdn: Hit ds;ms;76d516da1fe627787f7338bf3c9dc897;2-133674-12;b7b20aaa-b55a-4f14-4068-70d4b2aca671
+<< X-Middleton-Display: staticcontent_sol, orig_site_sol
+<< X-Middleton-Response: 200
+<< X-Nginx-Cache: WordPress
+<< X-Origin-Cache-Control: no-cache, private
+<< X-Ratelimit-Limit: 60
+<< X-Ratelimit-Remaining: 58
+<< X-Server-Cache: false
+<< X-Sol: orig
+<< Content-Length: 179
+Connection can be kept alive indefinitely
+Parsing response as: application/json
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+************ checking content type ***************
+statusline  :application/json
+]]></system-out>
+  </testcase>
+  <testcase name="checkContentlength" classname="com.employeeapi.Test.TC_02_GET_Sinfgle_EmployeeRecord" time="0.018"/>
+  <testcase name="checkResponsebody" classname="com.employeeapi.Test.TC_02_GET_Sinfgle_EmployeeRecord" time="0.054"/>
+  <testcase name="checkResponsetime" classname="com.employeeapi.Test.TC_02_GET_Sinfgle_EmployeeRecord" time="0.016"/>
+  <testcase name="checkServertype" classname="com.employeeapi.Test.TC_02_GET_Sinfgle_EmployeeRecord" time="0.019">
+    <failure message="expected [nginx/1.14.1] but found [nginx/1.21.6]" type="java.lang.AssertionError">java.lang.AssertionError: expected [nginx/1.14.1] but found [nginx/1.21.6]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at com.employeeapi.Test.TC_02_GET_Sinfgle_EmployeeRecord.checkServertype(TC_02_GET_Sinfgle_EmployeeRecord.java:74)
+</failure>
+    <system-out><![CDATA[************ checking server type***************
+servertype :nginx/1.21.6
+]]></system-out>
+  </testcase>
+  <testcase name="checkStatusCode" classname="com.employeeapi.Test.TC_02_GET_Sinfgle_EmployeeRecord" time="0.011"/>
+  <testcase name="checkStatusline" classname="com.employeeapi.Test.TC_02_GET_Sinfgle_EmployeeRecord" time="0.015"/>
+  <testcase name="checkContentType" classname="com.employeeapi.Test.TC_04_PUT_EMPLOYEE" time="0.003"/>
+  <testcase name="checkResposebody" classname="com.employeeapi.Test.TC_04_PUT_EMPLOYEE" time="0.027"/>
+  <testcase name="checkStatuscode" classname="com.employeeapi.Test.TC_04_PUT_EMPLOYEE" time="0"/>
+  <testcase name="checkStatusline" classname="com.employeeapi.Test.TC_04_PUT_EMPLOYEE" time="0.009"/>
+  <testcase name="checkResponsebody" classname="com.employeeapi.Test.TC_01_GET_All_Employees" time="0.073"/>
+  <testcase name="checkResponsetime" classname="com.employeeapi.Test.TC_01_GET_All_Employees" time="0.015"/>
+  <testcase name="checkStatusCode" classname="com.employeeapi.Test.TC_01_GET_All_Employees" time="0.013"/>
+  <testcase name="checkStatusline" classname="com.employeeapi.Test.TC_01_GET_All_Employees" time="0.019"/>
+</testsuite>
